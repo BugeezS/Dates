@@ -46,7 +46,7 @@ function createTime() {
   
   setInterval(() => {
     const now = new Date();
-    const timeStr = now.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric' });
+    const timeStr = now.toLocaleString('fr-EU', { hour: 'numeric', minute: 'numeric', second: 'numeric' });
     time.textContent = timeStr;
   }, 1000);
 }
